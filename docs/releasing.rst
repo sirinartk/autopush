@@ -90,6 +90,13 @@ i.e. If a new minor version is being released after ``1.21.0``, the
    Keep these changes handy, you'll need them again shortly.
 #. Once the release branch pull request is approved and merged, click ``Publish
    Release``.
+#. **NOTE**: if there are configuration changes involved, file a `bugzilla ticket <https://bugzilla.mozilla.org/enter_bug.cgi?product=Cloud%20Services&component=WebPush>`_ indicating:
+
+    * New configuration options with associated values
+    * Obsolete options that should be dropped
+    * Version of autopush associated with this change
+    * The bug should be cross linked with the issue when possible
+
 #. File a bug for stage deployment in Bugzilla, in the ``Cloud Services``
    product, under the ``Operations: Deployment Requests`` component. It should
    be titled ``Please deploy autopush {major}.{minor} to STAGE`` and include
