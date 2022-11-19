@@ -75,7 +75,7 @@ txaio==18.8.1             # via autobahn
 typing==3.7.4
 ua-parser==0.8.0
 uritemplate==3.0.0        # via google-api-python-client
-urllib3==1.25.3           # via botocore, requests
+urllib3==1.26.5           # via botocore, requests
 wsaccel==0.6.2 ; platform_python_implementation == "CPython"
 zope.interface==4.6.0
 
@@ -83,3 +83,4 @@ zope.interface==4.6.0
 # setuptools==41.0.1        # via google-api-core, protobuf, pyhamcrest, zope.interface
 
 # use pipdeptree for list of dependant packages
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
