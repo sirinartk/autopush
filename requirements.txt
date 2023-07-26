@@ -8,7 +8,7 @@ boto3==1.9.197
 botocore==1.12.197        # via boto3, s3transfer
 cachecontrol==0.12.5      # via firebase-admin
 cachetools==3.1.1         # via google-auth
-certifi==2019.6.16        # via requests
+certifi==2023.7.22        # via requests
 cffi==1.12.3
 chardet==3.0.4            # via requests
 click==7.0
