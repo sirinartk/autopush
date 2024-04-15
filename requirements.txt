@@ -43,7 +43,7 @@ httplib2==0.13.0          # via google-api-python-client, google-auth-httplib2, 
 hyper==0.7.0
 hyperframe==3.2.0         # via h2, hyper
 hyperlink==19.0.0         # via twisted
-idna==2.8                 # via hyperlink, requests, twisted
+idna==3.7                 # via hyperlink, requests, twisted
 incremental==17.5.0       # via treq, twisted
 ipaddress==1.0.22         # via cryptography, service-identity
 jmespath==0.9.4           # via boto3, botocore
