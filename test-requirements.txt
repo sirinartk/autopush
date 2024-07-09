@@ -12,3 +12,4 @@ pympler==0.5
 pytest>=3.6
 pytest-cov
 websocket-client
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
