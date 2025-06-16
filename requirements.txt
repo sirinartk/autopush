@@ -63,7 +63,7 @@ python-dateutil==2.8.0    # via botocore
 python-jose==3.0.1
 pytz==2019.1              # via google-api-core, google-cloud-firestore
 raven==6.10.0
-requests==2.22.0
+requests==2.32.4
 rsa==4.0                  # via google-auth, oauth2client, python-jose
 s3transfer==0.2.1         # via boto3
 service-identity==18.1.0
